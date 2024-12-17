@@ -1,0 +1,1464 @@
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('Font/AquawaxPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('Font/AquawaxPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('Font/AquawaxPro-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('Font/AquawaxPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Aquawax Pro';
+    src: url('Font/AquawaxPro-UltraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: url("Font/OpenSans.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: initial;
+}
+body{
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+
+/*Шапка сайта (Меню) */
+.top-nav {
+    padding: 0 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+.contact-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.name-log {
+    font-family: 'Aquawax Pro';
+    font-weight: 500;
+    font-size: 20px;
+    color: #0C191F; 
+}
+
+.name-fio-log {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    max-width: 200px;
+    font-size: 12px;
+    color: #556063; 
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.yandex-ru, .phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.icon-yandex-ru, .icon-phone {
+    margin-right: 10px;
+}
+.yandex-ru {
+    font-family: 'Aquawax Pro';
+    font-weight: 500;
+    font-size: 20px;
+    color: #0C191F;
+}
+
+.phone {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #0C191F;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info {
+    text-align: right;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #57ADE4;
+    height: 42px;
+    align-items: center;
+}
+
+.menu a {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin: 0 10px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.menu a:hover {
+    transform: scale(1.1);
+}
+/*Главная */
+.glavnae {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url('img/wooden-seats-by-a-pool-with-parasols 1.png');
+    background-size: cover;
+    background-position: center top;
+    margin-top: -100px;
+}
+
+.text-content {
+    text-align: left;
+    padding-left: 370px;
+    margin-top: 300px;
+}
+
+.zagolovok {
+    font-family: 'Aquawax Pro';
+    font-weight: 700;
+    font-size: 64px;
+    color: #ffffff;
+    max-width: 900px;
+}
+
+.slogan {
+    font-family: 'Aquawax Pro';
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: -25px;
+}
+
+.ostavit-zevka {
+    padding-left: 370px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.botton-zevka {
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    background-color: #57ADE4;
+    color: #ffffff;
+    border: none;
+    width: 270px;
+    height: 62px;
+    font-size: 16px;
+    border-radius: 0 30px 0 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botton-zevka:hover {
+    background-color: #3B91C8;
+}
+.image-button-container{
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+.image-button1 {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 370px;
+}
+
+.image-button1 img {
+    width: 34px;
+    height: 34px;
+    display: block;
+}
+
+.image-button1:hover img {
+    content: url('img/Size=Left\,\ Status=Hover.png');
+}
+.image-button2 {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.image-button2 img {
+    width: 34px;
+    height: 34px;
+    display: block;
+}
+
+.image-button2:hover img {
+    content: url('img/Size=Right, Status=Hover.png');
+}
+/* Блок первый */
+.block-1 {
+    height: 1011px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #F2F6F6;
+    
+}
+.what-biofiltr {
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 70px;
+    color: #0C191F;
+}
+
+.o-biofiltr1, .o-biofiltr2 {
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    padding: 0 370px;
+}
+.text1, .text2{
+    font-family: 'Aquawax Pro';
+    font-size: 18px;
+    font-weight: 400;
+    color: #556063;
+    max-width: 800px;
+}
+.text1 {
+    margin-right: 20px;
+    margin-top: 60px;
+}
+.text2 {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.block-2{
+    height: 513px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #F2F6F6;
+}
+.preumyshestva{
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 70px;
+    color: #0C191F;
+    margin-bottom: 50px;
+}
+.icon-container {
+    display: flex;
+    padding: 0 370px;
+    gap: 250px;
+    margin-right: 200px;
+}
+.logo-preumyshestva1{
+    height: 54px;
+    width: 67px;
+    margin-top: 10px;
+}
+.name-preumyshestva{
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    padding: 0 370px;
+    margin-right: 70px;
+}
+.name-preumyshestva-text-2{
+    margin-left: 60px;
+}
+.name-preumyshestva-text-3{
+    margin-left:150px;
+}
+.name-preumyshestva-text-4{
+    margin-left:200px;
+}
+.opisanie-preumyshestva {
+    display: flex;
+    text-align: left;
+    font-family: 'Aquawax Pro';
+    color: #556063;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 370px;
+    margin-top: -25px;
+}
+
+.opisanie-preumyshestva p {
+    width: 270px;
+    flex-shrink: 0;
+}
+.opisanie-preumyshestva-text2{
+    margin-left: 37px;
+}
+.opisanie-preumyshestva-text3{
+    margin-left: 27px;
+}
+.opisanie-preumyshestva-text4{
+    margin-left: 30px;
+}
+
+
+.block-3{
+    height: 963px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #E9EDED;
+}
+.prenchip-rabot{
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #0C191F;
+    margin-bottom: 50px;  
+}
+.ramka-1-4{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 0 370px;
+}
+.kvadrat{
+    width: 270px;
+    height: 227px;
+    background-color: #F2F6F6;
+    padding: 0 20px;
+    border-radius: 0 30px 0 30px;
+}
+.ramka-5-7{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 0 370px;
+    margin-top: 30px;
+}
+.pramoygolnic{
+    width: 370px;
+    height: 251px;
+    background-color: #F2F6F6;
+    padding: 0 20px;
+    border-radius: 0 30px 0 30px;
+}
+.ramka-8{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 0 370px;
+    margin-top: 30px;
+}
+.pramoygolnic-big{
+    width: 1170px;
+    height: 179px;
+    background-color: #F2F6F6;
+    padding: 0 20px;
+    border-radius: 0 30px 0 30px;
+}
+.nomer{
+    font-family: 'Aquawax Pro';
+    color: #57ADE4;
+    font-size: 32px;
+    font-weight: 600;
+}
+.atap-text{
+    font-family: 'Aquawax Pro';
+    font-size: 18px;
+    font-weight: 400;
+    color: #556063;
+    margin-top: -20px;
+}
+
+
+.block-4 {
+    height: 638px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #E9EDED;
+}
+
+.complikation {
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    color: #0C191F;
+    margin-bottom: 50px;
+}
+
+.ramka-1-2 {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding: 0 370px;
+}
+
+.pramoygolnic-kvadrat {
+    width: 570px;
+    height: 392px;
+    background-color: #F2F6F6;
+    border-radius: 0 30px 0 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.item {
+    font-family: 'Aquawax Pro';
+    font-size: 18px;
+    font-weight: 400;
+    color: #556063;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -12px;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+.hr3 {
+    height: 1px;
+    flex-grow: 1;
+    border: none;
+    border-top: 1px dashed #595a59;
+    margin: 27px 20px 0;
+}
+.blok4-11{
+    margin-top: -12px;
+    padding-inline-start: 10px;
+}
+.block-5{
+    height: 777px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #F2F6F6;
+}
+.zapusk-and-konservation{
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #0C191F;
+    margin-bottom: 50px;  
+}
+.batton-class{
+    display: flex;
+    margin-top: -10px;
+    gap: 20px;
+    padding: 0 370px;
+    justify-content: center;
+}
+
+.batton-zapusk {
+    font-family: 'Aquawax Pro';
+    font-weight: 500;
+    background-color: transparent;
+    color: #556063;
+    border: 2px solid #D4D4D4;
+    width: 185px;
+    height: 42px;
+    font-size: 16px;
+    border-radius: 0 30px 0 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.batton-zapusk:hover {
+    background-color: transparent;
+    color: #57ADE4;
+    border: 2px solid #57ADE4;
+}
+.batton-konservation {
+    font-family: 'Aquawax Pro';
+    font-weight: 500;
+    background-color: transparent;
+    color: #556063;
+    border: 2px solid #D4D4D4;
+    width: 228px;
+    height: 42px;
+    font-size: 16px;
+    border-radius: 0 30px 0 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.batton-konservation:hover {
+    background-color: transparent;
+    color: #57ADE4;
+    border: 2px solid #57ADE4;
+}
+.batton-kontrol {
+    font-family: 'Aquawax Pro';
+    font-weight: 500;
+    background-color: transparent;
+    color: #556063;
+    border: 2px solid #D4D4D4;
+    width: 292px;
+    height: 42px;
+    font-size: 16px;
+    border-radius: 0 30px 0 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.batton-kontrol:hover {
+    background-color: transparent;
+    color: #57ADE4;
+    border: 2px solid #57ADE4;
+}
+.container-etap-and-foto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 370px;
+    margin-top: 50px;
+}
+
+.zapusk {
+    font-family: 'Aquawax Pro';
+    font-weight: 500;
+    font-size: 20px;
+    color: #0C191F;
+    flex: 1;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.etap{
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    font-size: 18px;
+    color: #556063;
+    max-width: 570px;
+    line-height: 1.5;
+    padding-inline-start: 20px;
+}
+.foto-filtra {
+    flex: 1;
+    margin-left: 30px;
+}
+.foto-filtra img {
+    max-width: 100%;
+    height: auto;
+}
+.vnimane{
+    padding: 0 370px;
+}
+.vnimane-ramka{
+    height: 64px;
+    background-color: #E9EDED;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.vnimane-ramka img {
+    margin-right: 10px;
+}
+.vnimane-text {
+    margin: 0;
+    font-family: 'Aquawax Pro';
+    font-weight: 500;
+    font-size: 20px;
+    color: #556063;
+}
+.block-6{
+    height: 596px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #F2F6F6;
+}
+.obclyshivanie{
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #0C191F;
+    margin-bottom: 50px;  
+}
+.container-obclyshivanie-and-foto{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 370px;
+    margin-top: 50px;
+}
+.zapusk {
+    font-family: 'Aquawax Pro';
+    font-weight: 500;
+    font-size: 20px;
+    color: #0C191F;
+    flex: 1;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+.etap-obclyshivanie{
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    font-size: 18px;
+    color: #556063;
+    max-width: 560px;
+    line-height: 1.5;
+    padding-inline-start: 20px;
+}
+.foto-filtra2 {
+    flex: 1;
+    margin-left: 30px;
+}
+.foto-filtra2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.block-7{
+    height: 603px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #E9EDED;
+}
+.container-garant-and-foto{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 370px;
+}
+.garant{
+    text-align: left;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 120px;
+    max-width: 570px;
+    color: #0C191F;
+}
+.ten-yers{
+    color: #57ADE4;
+}
+.garant-dopis{
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    font-size: 18px;
+    color: #556063;
+    max-width: 570px;
+    line-height: 1.3; 
+    margin-top: -20px;
+}
+.foto-garant {
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 120px;
+}
+.foto-garant img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.block-8{
+    height: 703px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #F2F6F6;
+}
+.container-skimer-and-foto{
+    display: flex;
+    align-items: flex-start;
+    padding: 0 370px;
+    margin-top: 20px;
+}
+.foto-skimer{
+    margin-top: 70px;
+    margin-right: 30px;
+}
+.text-skimer{
+    margin-top: 20px;
+}
+.skimer-and-button{
+    display: flex;
+}
+.skimer{
+    text-align: left;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 800;
+    max-width: 472px;
+    color: #0C191F;
+    text-transform: uppercase;
+    line-height: 1.5; 
+}
+.plus-skimer{
+    color: #57ADE4;
+}
+.image-button-container2{
+    margin-top: -80px;
+    margin-left: 225px;
+    display: flex;
+}
+.image-button3 {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.image-button3 img {
+    width: 34px;
+    height: 34px;
+    display: block;
+}
+
+.image-button3:hover img {
+    content: url('img/Size=Left\,\ Status=Hover.png');
+}
+.image-button4 {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.image-button4 img {
+    width: 34px;
+    height: 34px;
+    display: block;
+}
+
+.image-button4:hover img {
+    content: url('img/Size=Right, Status=Hover.png');
+}
+.pro-skimer{
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    font-size: 18px;
+    color: #556063;
+    max-width: 570px;
+    line-height: 1.3; 
+    margin-top: -20px;
+}
+.botton-oformit {
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    background-color: #57ADE4;
+    color: #ffffff;
+    border: none;
+    width: 342px;
+    height: 62px;
+    font-size: 16px;
+    border-radius: 0 30px 0 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.botton-oformit:hover {
+    background-color: #3B91C8;
+}
+.chena-and-button{
+    display: flex;
+}
+.chena{
+    margin: 0;
+}
+.proshlae-chena{
+    font-family: 'Aquawax Pro';
+    font-size: 16px;
+    font-weight: 400;
+    color: #556063;
+    text-decoration: line-through;
+}
+.nastorshae-chena{
+    font-family: 'Aquawax Pro';
+    font-size: 32px;
+    font-weight: 600;
+    color: #0C191F;
+    margin-top: 15px;
+    max-width: 198px;
+}
+.block-9{
+    height: 727px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #E9EDED;
+}
+.oborudovani-and-button{
+    display: flex;
+    padding: 0 370px;
+    flex-grow: 1;
+
+}
+.oborudovani{
+    text-align: left;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #0C191F;
+    margin-bottom: 50px; 
+    white-space: nowrap; 
+}
+.image-button-container3{
+    margin-top: 50px;
+    margin-left: 270px;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-button5 {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.image-button5 img {
+    width: 34px;
+    height: 34px;
+    display: block;
+}
+
+.image-button5:hover img {
+    content: url('img/Size=Left\,\ Status=Hover.png');
+}
+.image-button6 {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.image-button6 img {
+    width: 34px;
+    height: 34px;
+    display: block;
+}
+.image-button6:hover img {
+    content: url('img/Size=Right, Status=Hover.png');
+}
+.tovar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 370px;
+}
+.tovar-1, .tovar-2, .tovar-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+.fhoto-tovar img {
+    max-width: 100%;
+    height: auto;
+}
+.text-tovar{
+    font-family: 'Aquawax Pro';
+    font-size: 20px;
+    font-weight: 500;
+    color: #0C191F;
+    width: 330px;
+}
+.chen-tovar {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    margin-right: 150px;
+}
+
+.big-chena {
+    font-family: 'Aquawax Pro';
+    font-size: 20px;
+    font-weight: 500;
+    color: #0C191F;
+    margin-right: 10px;
+}
+
+.zacherk-chena {
+    font-family: 'Aquawax Pro';
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 25px;
+    color: #556063;
+    text-decoration: line-through;
+}
+.botton-zevka-tovar {
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    background-color: #57ADE4;
+    color: #ffffff;
+    border: none;
+    width: 330px;
+    height: 62px;
+    font-size: 16px;
+    border-radius: 0 30px 0 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.botton-zevka-tovar:hover {
+    background-color: #3B91C8;
+}
+.block-10{
+    height: 500px;
+    margin: 0 auto;
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url('img/wooden-seats-by-a-pool-with-parasols 31.png');
+    background-size: cover;
+    background-position: center top;
+    justify-content: center;
+}
+.text-create-vodoem {
+    text-align: left;
+    padding: 0 370px;
+}
+.text-vodoem {
+    font-family: 'Aquawax Pro';
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: -25px;
+}
+.slogan-vodoem{
+    font-family: 'Aquawax Pro';
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: -25px;
+}
+.ostavit-zevka {
+    padding: 0 370px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.ostavit-zakaz{
+    padding: 0 370px;
+    margin-top: 50px;
+}
+.botton-zakaz {
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    background-color: #57ADE4;
+    color: #ffffff;
+    border: none;
+    width: 270px;
+    height: 62px;
+    font-size: 16px;
+    border-radius: 0 30px 0 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.botton-zakaz:hover {
+    background-color: #3B91C8;
+}
+.block-11 {
+    height: 1011px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #F2F6F6;
+}
+.what-biofiltr {
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 70px;
+    color: #0C191F;
+}
+
+.o-biofiltr1, .o-biofiltr2 {
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 60px;
+    padding: 0 370px;
+}
+.text1, .text2{
+    font-family: 'Aquawax Pro';
+    font-size: 18px;
+    font-weight: 400;
+    color: #556063;
+    max-width: 800px;
+}
+.text1 {
+    margin-right: 20px;
+    margin-top: 60px;
+}
+.text2 {
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.block-12 {
+    height: 626px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #E9EDED;
+}
+.primer{
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #0C191F;
+    margin-bottom: 50px;  
+}
+.block-13 {
+    height: 746px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #F2F6F6;
+}
+.akcee-and-predlogenia{
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #0C191F;
+    margin-bottom: 50px;  
+}
+.akcie-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 30px;
+    padding: 0 370px;
+}
+
+.rectangle {
+    max-width: 570px;
+    height: 235px;
+    background-color: #E9EDED;
+    border-radius: 0 30px 0 30px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rectangle-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.ckidka {
+    font-family: 'Aquawax Pro';
+    font-size: 18px;
+    font-weight: bold;
+    color: #556063;
+    margin: 0;
+}
+
+.ckidka-text {
+    font-family: 'Aquawax Pro';
+    font-size: 14px; 
+    font-weight: 400;
+    color: #556063;
+    text-align: center;
+    margin-top: 5px;
+}
+.block-14 {
+    height: 884px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #F2F6F6;
+}
+.voprose{
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #0C191F;
+    margin-bottom: 50px;  
+}
+.vopros-blok{
+    padding: 0 370px;
+}
+.toggle-checkbox {
+    display: none;
+}
+
+.toggle-button {
+    background-color: #E9EDED; 
+    width: 970px;
+    height: 68px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+}
+.answer {
+    margin-top: 10px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease;
+}
+
+.toggle-checkbox:checked + .toggle-button + .answer {
+    max-height: 500px;
+}
+.block-15 {
+    height: 623px;
+    margin: 0 auto;
+    padding: 1px;
+    background-color: #F2F6F6;
+}
+.etap-rabot-pokypat{
+    text-align: center;
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #0C191F;
+    margin-bottom: 50px;  
+}
+
+.block-16 {
+    margin: 0 auto;
+    height: 1047px;
+    background-color: #F2F6F6;
+    text-align: center;
+}
+
+.fone-block-16 {
+    width: 100%;  
+    max-width: 1920px;
+    height: auto;
+}
+
+.etap-rabot-zakaz {
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #0C191F;
+    margin-bottom: 50px;
+}
+.column-etap{
+    display: flex;
+    padding: 0 370px;
+    gap: 30px;
+    margin-top: -40px;
+}
+.nomer-and-poloca{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nomer-etam{
+    font-family: 'Aquawax Pro';
+    font-size: 40px;
+    font-weight: 700;
+    color: #57ADE4;
+    text-align: left;
+    margin-block-end: 0.1em;
+}
+.poloca{
+    width: 212px;
+    height: 1px;
+    background-color: #556063;
+    margin-top: 25px;
+}
+.zagolovok-etap{
+    font-family: 'Aquawax Pro';
+    font-size: 20px;
+    font-weight: 500;
+    color: #0C191F;
+    text-align: left;
+}
+.text-etap{
+    font-family: 'Aquawax Pro';
+    font-size: 18px;
+    font-weight: 400;
+    color: #556063;
+    text-align: left;
+    max-width: 270px;
+}
+.text-etap-nomerovan{
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    font-size: 18px;
+    color: #556063;
+    max-width: 270px;
+    line-height: 1.3;
+    padding-inline-start: 20px;
+    text-align: left;
+}
+.botton-zaevka {
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    background-color: #57ADE4;
+    color: #ffffff;
+    border: none;
+    width: 270px;
+    height: 62px;
+    font-size: 16px;
+    border-radius: 0 30px 0 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.botton-zaevka:hover {
+    background-color: #3B91C8;
+}
+.block-17 {
+    height: 345px;
+    margin: 0 auto;
+    background-color: #5199FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ramka-cotrudnichat{
+    width: 1170px;
+    height: 225px;
+    background-color: #F2F6F6;
+    border-radius: 0 30px 0 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    box-sizing: border-box;
+}
+.cotrudnichat{
+    font-family: 'Aquawax Pro';
+    font-size: 20px;
+    font-weight: 500;
+    color: #0C191F;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-top: 5px;
+}
+.cotrudnichat-text{
+    font-family: 'Aquawax Pro';
+    font-size: 18px;
+    font-weight: 400;
+    color: #556063;
+    max-width: 1110px;
+}
+.zapolnenie-forme{
+    display: flex;
+    gap: 20px;
+}
+
+.vod-name, .vod-fone {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input {
+    border: none;
+    padding: 5px 0;
+    width: 410px;
+    font-size: 18px;
+    font-family: 'Aquawax Pro';
+    color: #556063;
+    font-weight: 400;
+    outline: none;
+    background-color: transparent;
+    margin-top: 15px;
+}
+
+input:focus {
+    border-bottom: none;
+    background-color: none;
+}
+
+.line {
+    height: 2px;
+    background-color: #556063;
+    width: 410px;
+    margin-top: 15px; 
+}
+.botton-zaevky {
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    background-color: #57ADE4;
+    color: #ffffff;
+    border: none;
+    width: 250px;
+    height: 62px;
+    font-size: 16px;
+    border-radius: 0 30px 0 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.botton-zaevky:hover {
+    background-color: #3B91C8;
+}
+
+
+footer {
+    background-image: url('img/7f22865481e13f5e9916c6cdf3a65cf8.png');
+    background-size: cover;
+    background-position: center;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 370px;
+}
+.contakt-dannee{
+    display: flex;
+    justify-content: flex-start;
+}
+.ramka-dannee{
+    box-sizing: border-box;
+    width: 470px;
+    height: 520px;
+    background-color: #F2F6F6;
+    border-radius: 0 30px 0 30px;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.contakt-and-dannee {
+    font-family: 'Aquawax Pro';
+    font-size: 32px;
+    font-weight: 600;
+    color: #0C191F;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-top: 5px;
+}
+.adres-and-iconc {
+    display: flex;
+    align-items: center;
+}
+.fone-and-iconc {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+.email-and-iconc {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+.adres,
+.fone,
+.pochta {
+    font-family: 'Aquawax Pro';
+    font-size: 18px;
+    font-weight: 400;
+    color: #556063;
+    margin-left: 10px;
+    max-width: 390px;
+}
+.polnee-adres {
+    font-family: 'Aquawax Pro';
+    font-size: 20px;
+    font-weight: 500;
+    color: #0C191F;
+    text-align: left;
+    margin-top: -10px;
+}
+.polnee-telefon {
+    font-family: 'Aquawax Pro';
+    font-size: 20px;
+    font-weight: 500;
+    color: #0C191F;
+    text-align: left;
+    margin-top: -10px;
+}
+.polnee-pochta {
+    font-family: 'Aquawax Pro';
+    font-size: 20px;
+    font-weight: 500;
+    color: #0C191F;
+    text-align: left;
+    margin-top: -10px;
+}
+.whatsapp {
+    margin-bottom: 30px;
+    width: auto;
+    height: auto;
+    float: left;
+}
+.botton-zvonok {
+    font-family: 'Aquawax Pro';
+    font-weight: 400;
+    background-color: #57ADE4;
+    color: #ffffff;
+    border: none;
+    width: 390px;
+    height: 62px;
+    font-size: 16px;
+    border-radius: 0 30px 0 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.botton-zvonok:hover {
+    background-color: #3B91C8;
+}
